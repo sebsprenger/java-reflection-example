@@ -11,6 +11,7 @@ import java.lang.annotation.*;
         ElementType.PARAMETER
 })
 @Inherited
+@Documented
 public @interface MyAnnotation {
 
     String value() default "empty";
